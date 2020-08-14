@@ -5,7 +5,7 @@ This project was inspired on the "The ten most similar players - Pro Evolution S
 
 Have you ever been unable to complete a transfer either because the player's value doesn't fit your budget, or because their club just won't let them go?  This app aims to help you find options to get a player that can bring similar qualities to your team.
 
-Here, I built a PCA on the player game stats (Crossing, Finishing, Heading, Accuracy, ShortPassing, Volleys, Dribbling, Curve, FKAccuracy, LongPassing, BallControl, Acceleration, SprintSpeed, Agility, Reactions, Balance, ShotPower, Jumping, Stamina, Strength, LongShots, Aggression, Interceptions, Positioning, Vision, Penalties, Composure, Marking, StandingTackle, SlidingTackle, GKDiving, GKHandling, GKKicking, GKPositioning, GKReflexes).  Based on the PCA outcome, I decided to take the first 10 components (accounting by about 91% of the variance, 10th component is the first one that explains less than 1%).  
+Here, I built a PCA on the player game stats (Crossing, Finishing, Heading, Accuracy, ShortPassing, Volleys, Dribbling, Curve, FKAccuracy, LongPassing, BallControl, Acceleration, SprintSpeed, Agility, Reactions, Balance, ShotPower, Jumping, Stamina, Strength, LongShots, Aggression, Interceptions, Positioning, Vision, Penalties, Composure, Marking, StandingTackle, SlidingTackle, GKDiving, GKHandling, GKKicking, GKPositioning, GKReflexes).  Based on the PCA outcome, I decided to take the first 10 components (accounting by about 91% of the variance, 10th component is the first one that explains less than 1%.  Less components could be attempted, if you can try, or you can let me know if you want me to do so, shouldn't take that long to build).  
 
 ![Components](/www/Components.png)
 
