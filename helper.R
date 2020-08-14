@@ -1,9 +1,3 @@
-#players <- read.csv("D:/Diego/Git/FIFA  Players/data/data.csv",header=TRUE,encoding="UTF-8")
-
-#Excluding variables that shouldn't be taken into account
-#Photo, Nationality, jersey number, etc.
-#players <- players[,-c(1,5,7,11,14,19:21,23:54)]
-
 #Warning: This function assumes the structure of the input dataset doesn't change.
 #Only numerical variables related to stats are used.
 playerspca <- function(dataset){
