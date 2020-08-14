@@ -7,6 +7,20 @@
 #    http://shiny.rstudio.com/
 #
 
+#Check for needed packages
+#and install the ones missing:
+
+packages = c('shiny','FactoMineR','proxy','plotly', 'tidyr')
+package.check <- lapply(
+    packages,
+    FUN = function(x) {
+        if (!require(x, character.only = TRUE)) {
+            install.packages(x, dependencies = TRUE)
+            #library(x, character.only = TRUE)
+        }
+    }
+)
+
 library(shiny)
 library(FactoMineR)
 library(proxy)
