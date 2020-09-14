@@ -1,5 +1,5 @@
 # Fifa-Players
-Side project.  Get player suggestions for your transfers.
+Side project.  Get player suggestions for your transfers.  Running live at https://dlunah.shinyapps.io/fifa_players/
 
 This project was inspired on the "The ten most similar players - Pro Evolution Soccer 2019" app, built by Thiago (https://github.com/ThiagoValentimMarques).  Data set obtained from https://www.kaggle.com/karangadiya/fifa19.
 
